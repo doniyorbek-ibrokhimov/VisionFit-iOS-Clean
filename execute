@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Set variables
+DEVICE_ID="00008120-000C78821178C01E"
+APP_PATH="/Users/d.ibrokhimov/Documents/XcodeBuild/Build/Products/Debug-iphoneos/VisionFit.app"
+BUNDLE_ID="engineer.doniyor.VisionFit"
+DERIVED_DATA="/Users/d.ibrokhimov/Documents/XcodeBuild"
+
+# Build app
+xcodebuild -workspace VisionFit.xcworkspace -scheme VisionFit -configuration Debug -sdk iphoneos -derivedDataPath "$DERIVED_DATA" -destination "platform=iOS,id=$DEVICE_ID" CODE_SIGN_STYLE=Automatic build
+
+# Install app with devicectl
+xcrun devicectl device install app --device $DEVICE_ID "$APP_PATH"
+
+# Launch app with devicectl
+xcrun devicectl device process launch --device $DEVICE_ID $BUNDLE_ID

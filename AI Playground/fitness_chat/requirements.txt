@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+alembic
+asyncpg
+python-dotenv
+python-multipart
+openai>=1.0.0
+sqladmin
+pydantic-settings
+openai-agents
+python-multipart

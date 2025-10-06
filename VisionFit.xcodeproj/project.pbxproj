@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC635D742DB54E7500AB3741 /* HTTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = CC635D732DB54E7500AB3741 /* HTTPClient */; };
+		CC635D932DB5537F00AB3741 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = CC635D922DB5537F00AB3741 /* MarkdownUI */; };
+		CC667B452DBDC28000E83CAD /* PipecatClientIOS in Frameworks */ = {isa = PBXBuildFile; productRef = CC667B442DBDC28000E83CAD /* PipecatClientIOS */; };
+		CC667B482DBDC29D00E83CAD /* PipecatClientIOSGeminiLiveWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = CC667B472DBDC29D00E83CAD /* PipecatClientIOSGeminiLiveWebSocket */; };
+		CC76E9E92DC29B9E00AB44D0 /* QuickPoseCamera in Frameworks */ = {isa = PBXBuildFile; productRef = CC76E9E82DC29B9E00AB44D0 /* QuickPoseCamera */; };
+		CC76E9EB2DC29B9E00AB44D0 /* QuickPoseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CC76E9EA2DC29B9E00AB44D0 /* QuickPoseCore */; };
+		CC76E9ED2DC29B9E00AB44D0 /* QuickPoseMP in Frameworks */ = {isa = PBXBuildFile; productRef = CC76E9EC2DC29B9E00AB44D0 /* QuickPoseMP */; };
+		CC76EADB2DC2A2B200AB44D0 /* QuickPoseSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CC76EADA2DC2A2B200AB44D0 /* QuickPoseSwiftUI */; };
+		FA3855BE0FE71B24D8F6CF10 /* Pods_VisionFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFE0A4391417452FA2C7B04 /* Pods_VisionFit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EFE0A4391417452FA2C7B04 /* Pods_VisionFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisionFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE437EDF55328A71C3CDD06 /* Pods-VisionFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionFit.release.xcconfig"; path = "Target Support Files/Pods-VisionFit/Pods-VisionFit.release.xcconfig"; sourceTree = "<group>"; };
+		CC0FB1382D15A92E0067C38D /* VisionFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D596EBF0318D359727E3E2 /* Pods-VisionFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionFit.debug.xcconfig"; path = "Target Support Files/Pods-VisionFit/Pods-VisionFit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CCCF8E242D15D309004ABCB5 /* Exceptions for "VisionFit" folder in "VisionFit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Features/Camera/QPRangeOfMotion.swift,
+				Features/Camera/QuickPoseBasicView.swift,
+				Info.plist,
+			);
+			target = CC0FB1372D15A92E0067C38D /* VisionFit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC0FB13A2D15A92E0067C38D /* VisionFit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CCCF8E242D15D309004ABCB5 /* Exceptions for "VisionFit" folder in "VisionFit" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = VisionFit;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC0FB1352D15A92E0067C38D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC635D932DB5537F00AB3741 /* MarkdownUI in Frameworks */,
+				CC76E9EB2DC29B9E00AB44D0 /* QuickPoseCore in Frameworks */,
+				FA3855BE0FE71B24D8F6CF10 /* Pods_VisionFit.framework in Frameworks */,
+				CC76E9E92DC29B9E00AB44D0 /* QuickPoseCamera in Frameworks */,
+				CC76EADB2DC2A2B200AB44D0 /* QuickPoseSwiftUI in Frameworks */,
+				CC76E9ED2DC29B9E00AB44D0 /* QuickPoseMP in Frameworks */,
+				CC667B452DBDC28000E83CAD /* PipecatClientIOS in Frameworks */,
+				CC635D742DB54E7500AB3741 /* HTTPClient in Frameworks */,
+				CC667B482DBDC29D00E83CAD /* PipecatClientIOSGeminiLiveWebSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18717BBCBBB0828CC464A7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFE0A4391417452FA2C7B04 /* Pods_VisionFit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		663EFF8CD9F34A7821ED71D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6D596EBF0318D359727E3E2 /* Pods-VisionFit.debug.xcconfig */,
+				AEE437EDF55328A71C3CDD06 /* Pods-VisionFit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC0FB12F2D15A92E0067C38D = {
+			isa = PBXGroup;
+			children = (
+				CC0FB13A2D15A92E0067C38D /* VisionFit */,
+				CC0FB1392D15A92E0067C38D /* Products */,
+				663EFF8CD9F34A7821ED71D4 /* Pods */,
+				18717BBCBBB0828CC464A7FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0FB1392D15A92E0067C38D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0FB1382D15A92E0067C38D /* VisionFit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC0FB1372D15A92E0067C38D /* VisionFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0FB1462D15A92F0067C38D /* Build configuration list for PBXNativeTarget "VisionFit" */;
+			buildPhases = (
+				88FA0C691BB96D706DE5EA75 /* [CP] Check Pods Manifest.lock */,
+				CC0FB1342D15A92E0067C38D /* Sources */,
+				CC0FB1352D15A92E0067C38D /* Frameworks */,
+				CC0FB1362D15A92E0067C38D /* Resources */,
+				57F332C6503D4603F32A5AD2 /* [CP] Embed Pods Frameworks */,
+				9A3373354F3C16FC04A48F0A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC0FB13A2D15A92E0067C38D /* VisionFit */,
+			);
+			name = VisionFit;
+			productName = VisionFit;
+			productReference = CC0FB1382D15A92E0067C38D /* VisionFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC0FB1302D15A92E0067C38D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CC0FB1372D15A92E0067C38D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = CC0FB1332D15A92E0067C38D /* Build configuration list for PBXProject "VisionFit" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0FB12F2D15A92E0067C38D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CC635D722DB54E7500AB3741 /* XCLocalSwiftPackageReference "HTTPClient" */,
+				CC635D912DB5537F00AB3741 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				CC667B432DBDC28000E83CAD /* XCLocalSwiftPackageReference "pipecat-client-ios" */,
+				CC667B462DBDC29D00E83CAD /* XCLocalSwiftPackageReference "pipecat-client-ios-gemini-live-websocket" */,
+				CC76E9E72DC29B9E00AB44D0 /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */,
+			);
+			productRefGroup = CC0FB1392D15A92E0067C38D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0FB1372D15A92E0067C38D /* VisionFit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC0FB1362D15A92E0067C38D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57F332C6503D4603F32A5AD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionFit/Pods-VisionFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionFit/Pods-VisionFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionFit/Pods-VisionFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88FA0C691BB96D706DE5EA75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisionFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3373354F3C16FC04A48F0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionFit/Pods-VisionFit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisionFit/Pods-VisionFit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisionFit/Pods-VisionFit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC0FB1342D15A92E0067C38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC0FB1442D15A92F0067C38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC0FB1452D15A92F0067C38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC0FB1472D15A92F0067C38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D596EBF0318D359727E3E2 /* Pods-VisionFit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F778P32VCD;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisionFit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use the data from the photo library for the image recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need your speech recognition";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = engineer.doniyor.VisionFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC0FB1482D15A92F0067C38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE437EDF55328A71C3CDD06 /* Pods-VisionFit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F778P32VCD;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VisionFit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need your camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need your microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We use the data from the photo library for the image recognition.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need your speech recognition";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = engineer.doniyor.VisionFit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC0FB1332D15A92E0067C38D /* Build configuration list for PBXProject "VisionFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0FB1442D15A92F0067C38D /* Debug */,
+				CC0FB1452D15A92F0067C38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0FB1462D15A92F0067C38D /* Build configuration list for PBXNativeTarget "VisionFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0FB1472D15A92F0067C38D /* Debug */,
+				CC0FB1482D15A92F0067C38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CC635D722DB54E7500AB3741 /* XCLocalSwiftPackageReference "HTTPClient" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = HTTPClient;
+		};
+		CC667B432DBDC28000E83CAD /* XCLocalSwiftPackageReference "pipecat-client-ios" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "pipecat-client-ios";
+		};
+		CC667B462DBDC29D00E83CAD /* XCLocalSwiftPackageReference "pipecat-client-ios-gemini-live-websocket" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "pipecat-client-ios-gemini-live-websocket";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC635D912DB5537F00AB3741 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+		CC76E9E72DC29B9E00AB44D0 /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quickpose/quickpose-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC635D732DB54E7500AB3741 /* HTTPClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HTTPClient;
+		};
+		CC635D922DB5537F00AB3741 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC635D912DB5537F00AB3741 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		CC667B442DBDC28000E83CAD /* PipecatClientIOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PipecatClientIOS;
+		};
+		CC667B472DBDC29D00E83CAD /* PipecatClientIOSGeminiLiveWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PipecatClientIOSGeminiLiveWebSocket;
+		};
+		CC76E9E82DC29B9E00AB44D0 /* QuickPoseCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC76E9E72DC29B9E00AB44D0 /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseCamera;
+		};
+		CC76E9EA2DC29B9E00AB44D0 /* QuickPoseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC76E9E72DC29B9E00AB44D0 /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseCore;
+		};
+		CC76E9EC2DC29B9E00AB44D0 /* QuickPoseMP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC76E9E72DC29B9E00AB44D0 /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseMP;
+		};
+		CC76EADA2DC2A2B200AB44D0 /* QuickPoseSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC76E9E72DC29B9E00AB44D0 /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CC0FB1302D15A92E0067C38D /* Project object */;
+}
