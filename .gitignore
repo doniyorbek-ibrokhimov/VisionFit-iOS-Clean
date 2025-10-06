@@ -108,3 +108,6 @@ secrets/
 
 # Editor Configuration
 .cursor/
+
+# HTTP Client Package
+HTTPClient/
